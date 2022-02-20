@@ -8,35 +8,35 @@
 
 <body>
     <div>
-        <form>
+        <form onsubmit="register(event)">
             <div>
                 <label for="name">
                     Name
                 </label>
-                <input id="name" type="text" placeholder="please enter" />
+                <input id="name" type="text" placeholder="please enter" required />
             </div>
 
             <div>
-                <label for="e-mail">
+                <label for="email">
                     E-mail
                 </label>
-                <input id="e-mail" type="email" placeholder="abc@xyz.com" />
+                <input id="email" type="email" placeholder="abc@xyz.com" required />
             </div>
 
             <div>
                 <label for="password">
                     Password
                 </label>
-                <input id="password" type="password" placeholder="******" />
+                <input id="password" type="password" placeholder="******" required />
             </div>
             <div>
                 <label for="confirmPassword">
                     Confirm password
                 </label>
-                <input id="confirmPassword" type="password" placeholder="******" />
+                <input id="confirmPassword" type="password" placeholder="******" required />
             </div>
             <div>
-                <button>
+                <button type="submit">
                     Register Me!
                 </button>
             </div>
@@ -47,6 +47,7 @@
             </div>
         </form>
     </div>
+    <script src="../JS/registration.js"></script>
 </body>
 
 </html>
