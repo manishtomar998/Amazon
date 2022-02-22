@@ -1,0 +1,14 @@
+#home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#myCart{
+    margin: 20px;
+
+}
+#myCart a{
+    text-decoration: none;
+    
+}

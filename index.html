@@ -7,31 +7,33 @@
 </head>
 
 <body>
-    <form>
+    <form onsubmit="login(event)">
         <div>
-            <label for="loginemail">
-                E-mail
-            </label>
-            <input id="loginemail" type="email" placeholder="abe@xyz.com" />
-        </div>
-        <div>
-            <label for="loginpassword">
-                Password
-            </label>
-            <input id="loginemail" type="password" placeholder="******" />
-        </div>
-        <div>
-            <button>
-                Log in
-            </button>
-        </div>
-        <div>
-            <label>
-                Don't have a account <a href="./Pages/registration.html"> Click here</a>
-            </label>
+            <div>
+                <label for="loginemail">
+                    E-mail
+                </label>
+                <input required id="loginEmail" type="email" placeholder="abe@xyz.com" />
+            </div>
+            <div>
+                <label for="loginpassword">
+                    Password
+                </label>
+                <input required id="loginPassword" type="password" placeholder="******" />
+            </div>
+            <div>
+                <button type="submit">
+                    Log in
+                </button>
+            </div>
+            <div>
+                <label>
+                    Don't have a account <a href="./Pages/registration.html"> Click here</a>
+                </label>
+            </div>
         </div>
     </form>
-
+<script src="./JS/index.js"></script>
 </body>
 
 </html>

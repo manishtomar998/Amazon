@@ -4,48 +4,53 @@
     <title>
         Register
     </title>
+    <link rel="stylesheet" href="../CSS/registration.css" />
 </head>
 
 <body>
-    <div>
-        <form onsubmit="register(event)">
-            <div>
-                <label for="name">
-                    Name
-                </label>
-                <input id="name" type="text" placeholder="please enter" required />
-            </div>
+    <div id="first">
 
-            <div>
-                <label for="email">
-                    E-mail
-                </label>
-                <input id="email" type="email" placeholder="abc@xyz.com" required />
-            </div>
+        <form onsubmit="register(event)" id="form">
+            <fieldset id="fldst">
+                <div>
+                    <label for="name">
+                        Name
+                    </label>
+                    <input id="name" type="text" placeholder="please enter" required class="all" />
+                </div>
 
-            <div>
-                <label for="password">
-                    Password
-                </label>
-                <input id="password" type="password" placeholder="******" required />
-            </div>
-            <div>
-                <label for="confirmPassword">
-                    Confirm password
-                </label>
-                <input id="confirmPassword" type="password" placeholder="******" required />
-            </div>
-            <div>
-                <button type="submit">
-                    Register Me!
-                </button>
-            </div>
-            <div>
-                <label for="already">
-                    Already registered ? <a href="../index.html">Click Here</a>
-                </label>
-            </div>
+                <div>
+                    <label for="email">
+                        E-mail
+                    </label>
+                    <input id="email" type="email" placeholder="abc@xyz.com" required class="all" />
+                </div>
+
+                <div>
+                    <label for="password">
+                        Password
+                    </label>
+                    <input id="password" type="password" placeholder="******" required class="all"/>
+                </div>
+                <div>
+                    <label for="confirmPassword">
+                        Confirm password
+                    </label>
+                    <input id="confirmPassword" type="password" placeholder="******" required class="all"/>
+                </div>
+                <div>
+                    <button type="submit" class="all">
+                        Register Me!
+                    </button>
+                </div>
+                <div>
+                    <label for="already" class="all">
+                        Already registered ? <a href="../index.html">Click Here</a>
+                    </label>
+                </div>
+            </fieldset>
         </form>
+
     </div>
     <script src="../JS/registration.js"></script>
 </body>

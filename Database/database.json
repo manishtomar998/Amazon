@@ -5,6 +5,78 @@
       "email": "manishtomar998@gmail.com",
       "password": "Manish",
       "id": 1
+    },
+    {
+      "name": "Mayank Singh",
+      "email": "mayankthakur231@gmail.com",
+      "password": "Mayank",
+      "id": 2
     }
-  ]
+  ],
+  "products": [
+    {
+      "name": "Tata gold",
+      "price": "Rupees 300",
+      "description": "Purely extracted from the mountains of Assam",
+      "id": 1,
+      "image": "https://www.kesargrocery.com/images/P/premium_benefits.png"
+    },
+    {
+      "name": "Tata gold 1",
+      "price": "Rupees 300",
+      "description": "Purely extracted from the mountains of kerala",
+      "id": 2,
+      "image": "https://www.kesargrocery.com/images/P/premium_benefits.png"
+    },
+    {
+      "name": "Tata gold 2",
+      "price": "Rupees 200",
+      "description": "Purely extracted from the mountains of Arunanchal",
+      "id": 3,
+      "image": "https://www.kesargrocery.com/images/P/premium_benefits.png"
+    },
+    {
+      "name": "Tata gold 3",
+      "price": "Rupees 1000",
+      "description": "Only extracted from the mountains of Himachal",
+      "id": 4,
+      "image": "https://www.kesargrocery.com/images/P/premium_benefits.png"
+    },
+    {
+      "name": "Tata gold 4",
+      "price": "Rupees 900",
+      "description": "Purely extracted from the mountains of Asom",
+      "id": 5,
+      "image": "https://www.kesargrocery.com/images/P/premium_benefits.png"
+    },
+    {
+      "name": "Tata gold 5",
+      "price": "Rupees 400",
+      "description": "Purely extracted from the mountains of Nagaland",
+      "id": 6,
+      "image": "https://www.kesargrocery.com/images/P/premium_benefits.png"
+    },
+    {
+      "name": "Tata gold 6",
+      "price": "Rupees 500",
+      "description": "Purely extracted from the mountains of Assam",
+      "id": 7,
+      "image": "https://www.kesargrocery.com/images/P/premium_benefits.png"
+    },
+    {
+      "name": "Tata gold 7",
+      "price": "Rupees 300",
+      "description": "Purely extracted from the mountains of Assam",
+      "id": 8,
+      "image": "https://www.kesargrocery.com/images/P/premium_benefits.png"
+    },
+    {
+      "name": "Tata gold 8",
+      "price": "Rupees 300",
+      "description": "Purely extracted from the mountains of Assam",
+      "id": 9,
+      "image": "https://www.kesargrocery.com/images/P/premium_benefits.png"
+    }
+  ],
+  "cart": []
 }

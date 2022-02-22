@@ -1,0 +1,24 @@
+#first{
+    width: 100%
+}
+#form{
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+    
+}
+#fldst{
+    flex-direction: column;
+    display: flex;
+    text-align: -webkit-center;
+    margin: 5%;
+    max-width: max-content;
+}
+.all{
+    padding: 2%;
+    margin: 5%;
+}
+#confrimPassword{
+    padding: 1%;
+    margin: 2%;
+}
